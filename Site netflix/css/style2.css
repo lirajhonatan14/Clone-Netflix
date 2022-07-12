@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ margin: 0;
+ background-repeat: no-repeat;
+ padding: 0;
+}
+.cabecalho{
+    height: 100px;
+    display: flex;
+}
+.cabecalho-logo{
+    height: 70px;
+    padding: 10px;
+    margin-left: 30px;
+}
+.corpo{
+    background-color: rgba(0,0,0,.75);
+    width: 310px;
+    height: 550px;
+    padding: 70px;
+    margin-left: 36%;
+}
+.corpo-painel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.corpo-painel-titulo{
+    color: #fff;
+    margin-bottom: 23px;
+}
+.corpo-painel-usuario{
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    background-color: #303030;
+    border-radius: 4px;
+}
+.corpo-painel-senha{
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    background-color: #303030;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.corpo-painel-botao{
+    background-color: red;
+    color: #fff;
+    width: 175px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 44%;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+.corpo-painel-textos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.corpo-painel-texto-caixa{
+    color: #fff;
+    display: flex;
+    gap: 5px;
+}
+.corpo-painel-ajuda{
+    text-decoration: none;
+    color: #fff;
+}
+.corpo-painel-ajuda:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.corpo-painel-texto-facebook{
+    display: flex;
+    gap: 5px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.corpo-painel-logo-facebook{
+    height: 20px;
+}
+.corpo-painel-novo-por-aqui{
+    color: #fff;
+    display: flex;
+    gap: 5px;
+}
+.corpo-painel-assine-agora{
+    text-decoration: none;
+    color: #fff;
+}
+.corpo-painel-assine-agora:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.corpo-painel-texto-recaptcha{
+    margin-top: 5px;
+    color: #fff;
+    font-size: 15px;
+}
+.corpo-painel-saiba-mais{
+    text-decoration: none;
+    margin-left: 5px;
+}
+.corpo-painel-saiba-mais:hover{
+    text-decoration: underline;
+    margin-left: 5px;
+}
+.rodape{
+  height: 260px;
+  margin-top: 70px;
+  background-color: rgba(0,0,0,.75);
+}
+.rodape-titulo{
+    color: #fff;
+    font-size: 20px;
+    padding: 25px;
+    margin-left: 270px;
+}
+.rodape a{
+    color: #fff;
+    text-decoration: none;
+}
+.rodape a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+.rodape-menus{
+    padding-top: 5px;
+    margin-left: 19%;
+    gap: 150px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    
+}
+.rodape-menus-2{
+    padding-top: 20px;
+    display: flex;
+    gap: 135px;
+    margin-left: 19%;
+    font-size: 15px;
+}
+.rodape select{
+    margin-left: 19%;
+    margin-top: 40px;
+    height: 50px;
+    width: 140px;
+    background-color: rgba(0,0,0,4);
+    color: #fff;
+    text-align: center;
+}
